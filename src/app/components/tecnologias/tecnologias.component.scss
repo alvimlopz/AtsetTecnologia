@@ -1,0 +1,41 @@
+.tecnologias-section {
+    background-color: #e7e7e7;
+    padding: 80px 20px;
+  
+    .titulo-tecnologias {
+      font-style: black italic;
+      font-weight: 900;
+      font-size: 130px;
+      line-height: 1;
+      text-align: left;
+  
+      .linha-1 {
+        color: #2e6f8e; // azul
+      }
+  
+      .linha-2 {
+        color: #000;
+        display: inline-block;
+        transform: translate(35px, -35px); // ajusta a posição para cima e direita
+      }
+    }
+  
+    .frase {
+      font-size: 1rem;
+      color: #111;
+      font-style: italic;
+    }
+  
+    .logos img {
+      height: 36px;
+      max-width: 80px;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+      cursor: default;
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  

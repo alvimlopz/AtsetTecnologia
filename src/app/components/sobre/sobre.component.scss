@@ -1,0 +1,32 @@
+.sobre-section {
+    background-color: #f0f0f0;
+    padding: 80px 20px;
+  
+    .small-title {
+      color: #007bff;
+      font-weight: 500;
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+  
+    .main-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+  
+    .sobre-text {
+      max-width: 800px;
+      font-style: italic;
+      text-align: left;
+      line-height: 1.6;
+      font-size: 1rem;
+      color: #333;
+    }
+  
+    .text-primary {
+      color: #007bff;
+      font-weight: 600;
+    }
+  }
+  

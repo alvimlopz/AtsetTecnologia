@@ -1,0 +1,28 @@
+<section class="noticias-section">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-4">
+        <div>
+          <h3 class="titulo">Noticias e Insights</h3>
+          <p class="frase">
+            <strong>
+              Aqui você acompanha as principais notícias, tendências e insights do Brasil e do mundo sobre tecnologia, inovação e o futuro digital.
+            </strong>
+          </p>
+        </div>
+        <button class="btn-outline">Veja mais</button>
+      </div>
+  
+      <div class="row g-4">
+        <div class="col-md-4" *ngFor="let noticia of noticias">
+          <div class="card-noticia">
+            <img [src]="noticia.imagem" [alt]="noticia.titulo" />
+            <div class="card-conteudo">
+              <span class="tag">Tecnologia</span>
+              <p class="titulo-noticia">{{ noticia.titulo }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

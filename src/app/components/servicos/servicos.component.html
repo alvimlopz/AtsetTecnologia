@@ -1,0 +1,15 @@
+<section id="servicos" class="servicos-section text-center text-white">
+    <div class="container">
+      <h3 class="titulo">Nossos Serviços</h3>
+  
+      <div class="row mt-5">
+        <div class="col-md-4 mb-4" *ngFor="let servico of servicos">
+          <div class="card-servico">
+            <img [src]="servico.imagem" [alt]="servico.titulo" />
+            <p>{{ servico.titulo }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

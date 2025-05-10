@@ -1,0 +1,41 @@
+.footer-section {
+    background: url('/quartafoto.png') no-repeat center center;
+    background-size: cover;
+    padding: 60px 20px;
+    color: #fff;
+  
+    p {
+      margin: 0 0 8px;
+      font-size: 0.95rem;
+    }
+  
+    a {
+      color: #fff;
+      text-decoration: underline;
+  
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  
+    .social-icons img {
+      width: 24px;
+      height: 24px;
+      filter: brightness(0) invert(1);
+      transition: 0.3s ease;
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  
+    .logo-footer {
+      height: 40px;
+    }
+  
+    .copyright {
+      font-size: 0.85rem;
+      margin-top: auto;
+    }
+  }
+  
