@@ -1,3 +1,9 @@
+
 [build]
   command = "ng build --configuration production"
   publish = "dist/atset-tecnologia"
+
+[[plugins]]
+  package = "@netlify/angular-runtime"
+  [plugins.inputs]
+  skip = true
